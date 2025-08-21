@@ -1,0 +1,541 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8170772488305976565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/footsteps/scene
+  m_EditorClassIdentifier: 
+  Name: scene
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 771118965
+    data2: 888054086
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - purgatory
+  - gallery
+  - meadow
+  - beach
+  Exists: 1
+--- !u!114 &-7519162600669920927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/purgatory/paper_falling_amb 3
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/purgatory/paper_falling_amb 3
+  Guid:
+    Data1: 938044657
+    Data2: 1203994072
+    Data3: -81504608
+    Data4: -662592913
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2250
+--- !u!114 &-7451652713553425368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/wheat_field/windmill
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/wheat_field/windmill
+  Guid:
+    Data1: -1584805831
+    Data2: 1264430722
+    Data3: 851581339
+    Data4: 391213163
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-4159374664746222737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Aster/stylus_swing
+  m_EditorClassIdentifier: 
+  Path: event:/Aster/stylus_swing
+  Guid:
+    Data1: 2021812173
+    Data2: 1308000617
+    Data3: 1631066300
+    Data4: -1745808694
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 703
+--- !u!114 &-3521464332491787918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/purgatory/paper_falling_amb 2
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/purgatory/paper_falling_amb 2
+  Guid:
+    Data1: 678816610
+    Data2: 1120413596
+    Data3: -1665694832
+    Data4: -1672602247
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2375
+--- !u!114 &-3078699369280860865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMODBanks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638913841716468171
+  FileSizes:
+  - Name: 
+    Value: 1536
+  Exists: 1
+--- !u!114 &-2426057408850627104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Aster/vox/Aster_confirm
+  m_EditorClassIdentifier: 
+  Path: event:/Aster/vox/Aster_confirm
+  Guid:
+    Data1: -1804855917
+    Data2: 1276779275
+    Data3: 789645499
+    Data4: 981138450
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1123
+--- !u!114 &-1845144592826063856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODBanks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638913841716433197
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-1293142249253218688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Aster/footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Aster/footsteps
+  Guid:
+    Data1: -1732583273
+    Data2: 1281111857
+    Data3: 1280158351
+    Data4: -139982758
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8170772488305976565}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3583
+--- !u!114 &-1209070289783854744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/amb_master/scene
+  m_EditorClassIdentifier: 
+  Name: scene
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 771118965
+    data2: 888054086
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - purgatory
+  - gallery
+  - meadow
+  - beach
+  Exists: 1
+--- !u!114 &-1057823818376839505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Aster/vox/Aster_disappointed
+  m_EditorClassIdentifier: 
+  Path: event:/Aster/vox/Aster_disappointed
+  Guid:
+    Data1: 1517474621
+    Data2: 1209059591
+    Data3: 404811649
+    Data4: -899982463
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1010
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -3078699369280860865}
+  - {fileID: -1845144592826063856}
+  EditorEvents:
+  - {fileID: 7863636158199089522}
+  - {fileID: -7451652713553425368}
+  - {fileID: -1057823818376839505}
+  - {fileID: -3521464332491787918}
+  - {fileID: 741076022019782255}
+  - {fileID: -2426057408850627104}
+  - {fileID: 5814941425826455619}
+  - {fileID: -1293142249253218688}
+  - {fileID: 4689035007349514491}
+  - {fileID: 755550520081115365}
+  - {fileID: 5907154625249204997}
+  - {fileID: -4159374664746222737}
+  - {fileID: -7519162600669920927}
+  EditorParameters:
+  - {fileID: 4429011591556906584}
+  MasterBanks:
+  - {fileID: -1845144592826063856}
+  StringsBanks:
+  - {fileID: -3078699369280860865}
+  cacheVersion: 131849
+  cacheTime: 638913841716468171
+  SerializableEventsDict:
+  - key: event:/Aster/vox/Aster_surprise
+    index: 0
+  - key: event:/Amb/wheat_field/windmill
+    index: 1
+  - key: event:/Aster/vox/Aster_disappointed
+    index: 2
+  - key: event:/Amb/purgatory/paper_falling_amb 2
+    index: 3
+  - key: event:/Aster/vox/Aster_joy
+    index: 4
+  - key: event:/Aster/vox/Aster_confirm
+    index: 5
+  - key: event:/Aster/vox/Aster_laugh
+    index: 6
+  - key: event:/Aster/footsteps
+    index: 7
+  - key: event:/Amb/purgatory/paper_falling_amb
+    index: 8
+  - key: event:/Amb/amb_master
+    index: 9
+  - key: event:/Amb/purgatory/paper_falling
+    index: 10
+  - key: event:/Aster/stylus_swing
+    index: 11
+  - key: event:/Amb/purgatory/paper_falling_amb 3
+    index: 12
+--- !u!114 &741076022019782255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Aster/vox/Aster_joy
+  m_EditorClassIdentifier: 
+  Path: event:/Aster/vox/Aster_joy
+  Guid:
+    Data1: -1842421142
+    Data2: 1095255474
+    Data3: 598430125
+    Data4: 782900911
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 687
+--- !u!114 &755550520081115365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/amb_master
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/amb_master
+  Guid:
+    Data1: -543128407
+    Data2: 1188771504
+    Data3: 285061001
+    Data4: -1295554320
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1209070289783854744}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 256000
+--- !u!114 &4429011591556906584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/scene
+  m_EditorClassIdentifier: 
+  Name: scene
+  StudioPath: parameter:/scene
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 771118965
+    data2: 888054086
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - purgatory
+  - gallery
+  - meadow
+  - beach
+  Exists: 1
+--- !u!114 &4689035007349514491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/purgatory/paper_falling_amb
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/purgatory/paper_falling_amb
+  Guid:
+    Data1: -580727646
+    Data2: 1244163379
+    Data3: -1044213839
+    Data4: -1584739032
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1875
+--- !u!114 &5814941425826455619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Aster/vox/Aster_laugh
+  m_EditorClassIdentifier: 
+  Path: event:/Aster/vox/Aster_laugh
+  Guid:
+    Data1: 1397144983
+    Data2: 1329759688
+    Data3: -1556545368
+    Data4: -1308298226
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 817
+--- !u!114 &5907154625249204997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/purgatory/paper_falling
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/purgatory/paper_falling
+  Guid:
+    Data1: -1062597710
+    Data2: 1242476341
+    Data3: -579762795
+    Data4: -1654500251
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1250
+--- !u!114 &7863636158199089522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Aster/vox/Aster_surprise
+  m_EditorClassIdentifier: 
+  Path: event:/Aster/vox/Aster_surprise
+  Guid:
+    Data1: 778571530
+    Data2: 1080112427
+    Data3: -1431301495
+    Data4: -475744057
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1587
