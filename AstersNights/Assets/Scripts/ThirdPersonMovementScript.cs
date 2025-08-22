@@ -1,14 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMOD;
+using FMODUnity;
 
 public class ThirdPersonMovementScript : MonoBehaviour
 {
     public CharacterController controller;
-
     public float speed = 6f;
 
-    // Update is called once per frame
+    private bool isPlaying = false;
+
     void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
@@ -18,7 +20,20 @@ public class ThirdPersonMovementScript : MonoBehaviour
         if (direction.magnitude >= 0.1f)
         {
             controller.Move(direction * speed * Time.deltaTime);
-        }
 
+            if (!isPlaying)
+            {
+                SendMessage("Play");
+                isPlaying = true;
+            }
+        }
+        else
+        {
+            if (isPlaying)
+            {
+                SendMessage("Stop");
+                isPlaying = false;
+            }
+        }
     }
 }
