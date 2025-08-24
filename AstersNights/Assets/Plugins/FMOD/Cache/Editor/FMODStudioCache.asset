@@ -151,7 +151,7 @@ MonoBehaviour:
   Path: FMODBanks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638913841716468171
+  lastModified: 638914903931612414
   FileSizes:
   - Name: 
     Value: 1536
@@ -198,7 +198,7 @@ MonoBehaviour:
   Path: FMODBanks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638913841716433197
+  lastModified: 638914903931592444
   FileSizes: []
   Exists: 1
 --- !u!114 &-1293142249253218688
@@ -320,7 +320,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -3078699369280860865}
   cacheVersion: 131849
-  cacheTime: 638913841716468171
+  cacheTime: 638914903931612414
   SerializableEventsDict:
   - key: event:/Aster/vox/Aster_surprise
     index: 0
