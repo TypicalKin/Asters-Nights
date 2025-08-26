@@ -10,6 +10,12 @@ public class ThirdPersonMovementScript : MonoBehaviour
     public float speed = 6f;
 
     private bool isPlaying = false;
+    private Animator animator;
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Update()
     {
@@ -19,6 +25,7 @@ public class ThirdPersonMovementScript : MonoBehaviour
 
         if (direction.magnitude >= 0.1f)
         {
+            animator.SetBool("IsMoving", true);
             controller.Move(direction * speed * Time.deltaTime);
 
             if (!isPlaying)
@@ -29,6 +36,7 @@ public class ThirdPersonMovementScript : MonoBehaviour
         }
         else
         {
+            animator.SetBool("IsMoving", false);
             if (isPlaying)
             {
                 SendMessage("Stop");
