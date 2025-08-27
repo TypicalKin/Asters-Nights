@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using FMOD;
 using FMODUnity;
+using FMOD.Studio;
 
 public class ThirdPersonMovementScript : MonoBehaviour
 {
@@ -12,9 +12,12 @@ public class ThirdPersonMovementScript : MonoBehaviour
     private bool isPlaying = false;
     private Animator animator;
 
+    private EventInstance footstepInstance;
+
     void Start()
     {
         animator = GetComponent<Animator>();
+        footstepInstance = RuntimeManager.CreateInstance("event:/Aster/footsteps");
     }
 
     void Update()
@@ -30,7 +33,7 @@ public class ThirdPersonMovementScript : MonoBehaviour
 
             if (!isPlaying)
             {
-                SendMessage("Play");
+                footstepInstance.start();
                 isPlaying = true;
             }
         }
@@ -39,9 +42,15 @@ public class ThirdPersonMovementScript : MonoBehaviour
             animator.SetBool("IsMoving", false);
             if (isPlaying)
             {
-                SendMessage("Stop");
+                footstepInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
                 isPlaying = false;
             }
         }
+    }
+
+    void OnDestroy()
+    {
+        // Release the FMOD instance when object is destroyed
+        footstepInstance.release();
     }
 }
