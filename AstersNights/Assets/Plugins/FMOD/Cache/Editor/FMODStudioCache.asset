@@ -151,11 +151,38 @@ MonoBehaviour:
   Path: FMODBanks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638914903931612414
+  lastModified: 638918846853322301
   FileSizes:
   - Name: 
-    Value: 1536
+    Value: 1594
   Exists: 1
+--- !u!114 &-2834936304978858003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/windmill_master
+  m_EditorClassIdentifier: 
+  Path: event:/windmill_master
+  Guid:
+    Data1: -322311539
+    Data2: 1322650639
+    Data3: -54960462
+    Data4: 292761040
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &-2426057408850627104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,7 +225,7 @@ MonoBehaviour:
   Path: FMODBanks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638917629853135614
+  lastModified: 638918846853267030
   FileSizes: []
   Exists: 1
 --- !u!114 &-1293142249253218688
@@ -228,7 +255,7 @@ MonoBehaviour:
   - {fileID: -8170772488305976565}
   MinDistance: 1
   MaxDistance: 20
-  Length: 3583
+  Length: 4083
 --- !u!114 &-1209070289783854744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,6 +340,7 @@ MonoBehaviour:
   - {fileID: 5907154625249204997}
   - {fileID: -4159374664746222737}
   - {fileID: -7519162600669920927}
+  - {fileID: -2834936304978858003}
   EditorParameters:
   - {fileID: 4429011591556906584}
   MasterBanks:
@@ -320,7 +348,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -3078699369280860865}
   cacheVersion: 131849
-  cacheTime: 638917629853135614
+  cacheTime: 638918846853322301
   SerializableEventsDict:
   - key: event:/Aster/vox/Aster_surprise
     index: 0
@@ -348,6 +376,8 @@ MonoBehaviour:
     index: 11
   - key: event:/Amb/purgatory/paper_falling_amb 3
     index: 12
+  - key: event:/windmill_master
+    index: 13
 --- !u!114 &741076022019782255
 MonoBehaviour:
   m_ObjectHideFlags: 0
