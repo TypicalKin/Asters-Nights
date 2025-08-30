@@ -315,7 +315,7 @@ MonoBehaviour:
       Value: 0
       HasValue: 0
     Overlay:
-      Value: 1
+      Value: 0
       HasValue: 1
     OverlayPosition:
       Value: 0
@@ -421,18 +421,18 @@ MonoBehaviour:
   HideSetupWizard: 1
   LastEventReferenceScanVersion: 131849
   Platforms:
-  - {fileID: -2368208290416813685}
-  - {fileID: 3164748650735524109}
-  - {fileID: -4365884650351045057}
-  - {fileID: 5244878602645353565}
-  - {fileID: 3883277821290781310}
-  - {fileID: -3212286270473195880}
-  - {fileID: 4856903250111862953}
-  - {fileID: 758239245683498873}
-  - {fileID: 8201351252950972548}
-  - {fileID: 3266955684433858193}
-  - {fileID: -2618277483977036557}
   - {fileID: -7819632256455580452}
+  - {fileID: -4365884650351045057}
+  - {fileID: -3212286270473195880}
+  - {fileID: -2618277483977036557}
+  - {fileID: -2368208290416813685}
+  - {fileID: 758239245683498873}
+  - {fileID: 3164748650735524109}
+  - {fileID: 3266955684433858193}
+  - {fileID: 3883277821290781310}
+  - {fileID: 4856903250111862953}
+  - {fileID: 5244878602645353565}
+  - {fileID: 8201351252950972548}
   MigratedPlatforms: 0c000000150000000b0000000a0000000900000012000000000000000800000005000000060000000200000001000000
 --- !u!114 &758239245683498873
 MonoBehaviour:
@@ -548,8 +548,8 @@ MonoBehaviour:
       Value: 
       HasValue: 0
     SpeakerMode:
-      Value: 0
-      HasValue: 0
+      Value: 3
+      HasValue: 1
     VirtualChannelCount:
       Value: 0
       HasValue: 0
@@ -577,16 +577,16 @@ MonoBehaviour:
     HasValue: 0
   displaySortOrder: 0
   childIdentifiers:
-  - c88d16e5272a4e241b0ef0ac2e53b73d
-  - fd7c55dab0fce234b8c25f6ffca523c1
-  - 2c5177b11d81d824dbb064f9ac8527da
-  - de700ef3f37a49b58a57ae3addf01ad9
-  - e7a046c753c3c3d4aacc91f6597f310d
-  - 52eb9df5db46521439908db3a29a1bbb
-  - b7716510a1f36934c87976f3a81dbf3d
-  - 0f8eb3f400726694eb47beb1a9f94ce8
-  - 46fbfdf3fc43db0458918377fd40293e
   - 2fea114e74ecf3c4f920e1d5cc1c4c40
+  - c88d16e5272a4e241b0ef0ac2e53b73d
+  - de700ef3f37a49b58a57ae3addf01ad9
+  - 46fbfdf3fc43db0458918377fd40293e
+  - 52eb9df5db46521439908db3a29a1bbb
+  - 0f8eb3f400726694eb47beb1a9f94ce8
+  - 2c5177b11d81d824dbb064f9ac8527da
+  - e7a046c753c3c3d4aacc91f6597f310d
+  - fd7c55dab0fce234b8c25f6ffca523c1
+  - b7716510a1f36934c87976f3a81dbf3d
   codecChannels:
     Value: []
     HasValue: 0

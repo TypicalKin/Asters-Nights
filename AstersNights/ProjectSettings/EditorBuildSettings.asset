@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Wheat.unity
     guid: 06b8944690eb9704294c4e2afd711086
+  - enabled: 1
+    path: Assets/Scenes/Starry.unity
+    guid: 892f0945f26fb6c4fa2972f595b33c5d
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: e6546129661ed024d8a18623aa0da2e9
   m_configObjects: {}
