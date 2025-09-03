@@ -107108,7 +107108,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.16071765, y: -0.000000042456765, z: 0.0000000069134227, w: 0.98700047}
+  m_LocalRotation: {x: 0.16071765, y: 0.000000042456765, z: -0.0000000069134227, w: 0.98700047}
   m_LocalPosition: {x: -19.5, y: 5.08, z: -42.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -115908,7 +115908,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1035866829}
-  m_LocalRotation: {x: 0.16071762, y: -0.000000008491351, z: 0.000000001382684, w: 0.98700047}
+  m_LocalRotation: {x: 0.16071762, y: 0.000000008491354, z: -0.0000000013826845, w: 0.98700047}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -174827,7 +174827,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534654606}
-  m_LocalRotation: {x: 0.13238297, y: 0.00000001705494, z: -0.0000000022778315, w: 0.99119866}
+  m_LocalRotation: {x: 0.13238297, y: -0.000000017054942, z: 0.0000000022778317, w: 0.99119866}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -175790,6 +175790,7 @@ GameObject:
   - component: {fileID: 1542965894}
   - component: {fileID: 1542965896}
   - component: {fileID: 1542965897}
+  - component: {fileID: 1542965898}
   m_Layer: 0
   m_Name: ThirdPersonPlayer
   m_TagString: Player
@@ -175878,6 +175879,37 @@ MonoBehaviour:
       Data3: 1280158351
       Data4: -139982758
     Path: event:/Aster/footsteps
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1542965898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542965892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -424024922
+      Data2: 1195014365
+      Data3: -2021468772
+      Data4: -133278019
+    Path: event:/Aster/footsteps_2
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -202861,8 +202893,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778566691}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.201546, y: 6.598858, z: 47.0777}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 4.83, y: 6.598858, z: 79.56}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -206548,7 +206580,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810824036}
-  m_LocalRotation: {x: 0.18910751, y: 0.0000000084479606, z: -0.0000000016269286, w: 0.9819564}
+  m_LocalRotation: {x: 0.18910751, y: -0.000000008447955, z: 0.0000000016269276, w: 0.9819564}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -213896,7 +213928,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862464973}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.6, y: 1.05, z: 7.6}
+  m_LocalPosition: {x: -11.9, y: 1.05, z: 7.6}
   m_LocalScale: {x: 30, y: 30, z: 30}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -219110,8 +219142,9 @@ GameObject:
   - component: {fileID: 1914351824}
   - component: {fileID: 1914351827}
   - component: {fileID: 1914351826}
-  - component: {fileID: 1914351828}
   - component: {fileID: 1914351829}
+  - component: {fileID: 1914351830}
+  - component: {fileID: 1914351831}
   m_Layer: 0
   m_Name: ThirdPersonCamera
   m_TagString: Untagged
@@ -219312,20 +219345,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!114 &1914351828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1914351821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nonRigidbodyVelocity: 0
-  attenuationObject: {fileID: 0}
 --- !u!114 &1914351829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219348,6 +219367,51 @@ MonoBehaviour:
     Path: event:/Aster/vox/Aster_joy
   Event: 
   EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1914351830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914351821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
+--- !u!114 &1914351831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914351821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 65512945
+      Data2: 1090862223
+      Data3: -2033237883
+      Data4: 882294595
+    Path: event:/Amb/scene_transition
+  Event: 
+  EventPlayTrigger: 2
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -228843,8 +228907,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992238682}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.79, y: 1.05, z: 42.03}
-  m_LocalScale: {x: 15, y: 15, z: 15}
+  m_LocalPosition: {x: 4.5, y: 1.05, z: 80.95}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

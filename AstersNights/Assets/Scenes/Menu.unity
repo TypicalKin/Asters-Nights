@@ -400,6 +400,7 @@ GameObject:
   - component: {fileID: 322607362}
   - component: {fileID: 322607364}
   - component: {fileID: 322607363}
+  - component: {fileID: 322607365}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -465,6 +466,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322607361}
   m_CullTransparentMesh: 1
+--- !u!114 &322607365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322607361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -696677453
+      Data2: 1198943811
+      Data3: 290948260
+      Data4: -1387677342
+    Path: event:/UI/Select
+  Event: 
+  EventPlayTrigger: 17
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &415724090
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,6 +821,7 @@ GameObject:
   - component: {fileID: 510411247}
   - component: {fileID: 510411246}
   - component: {fileID: 510411245}
+  - component: {fileID: 510411249}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -881,6 +914,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &510411249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510411244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -696677453
+      Data2: 1198943811
+      Data3: 290948260
+      Data4: -1387677342
+    Path: event:/UI/Select
+  Event: 
+  EventPlayTrigger: 17
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &563497500
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,6 +1092,7 @@ GameObject:
   - component: {fileID: 587803383}
   - component: {fileID: 587803382}
   - component: {fileID: 587803381}
+  - component: {fileID: 587803384}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -1162,6 +1227,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 587803379}
   m_CullTransparentMesh: 1
+--- !u!114 &587803384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587803379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -696677453
+      Data2: 1198943811
+      Data3: 290948260
+      Data4: -1387677342
+    Path: event:/UI/Select
+  Event: 
+  EventPlayTrigger: 17
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &677635832
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,6 +1270,7 @@ GameObject:
   - component: {fileID: 677635836}
   - component: {fileID: 677635835}
   - component: {fileID: 677635834}
+  - component: {fileID: 677635837}
   m_Layer: 5
   m_Name: OptionsButton
   m_TagString: Untagged
@@ -1308,6 +1405,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 677635832}
   m_CullTransparentMesh: 1
+--- !u!114 &677635837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677635832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -696677453
+      Data2: 1198943811
+      Data3: 290948260
+      Data4: -1387677342
+    Path: event:/UI/Select
+  Event: 
+  EventPlayTrigger: 17
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &715140793
 GameObject:
   m_ObjectHideFlags: 0
@@ -1868,6 +1996,8 @@ GameObject:
   - component: {fileID: 1006337589}
   - component: {fileID: 1006337588}
   - component: {fileID: 1006337587}
+  - component: {fileID: 1006337591}
+  - component: {fileID: 1006337590}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1941,6 +2071,68 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1006337590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006337586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 65512945
+      Data2: 1090862223
+      Data3: -2033237883
+      Data4: 882294595
+    Path: event:/Amb/scene_transition
+  Event: 
+  EventPlayTrigger: 2
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1006337591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006337586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1397144983
+      Data2: 1329759688
+      Data3: -1556545368
+      Data4: -1308298226
+    Path: event:/Aster/vox/Aster_laugh
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1056179630
 GameObject:
   m_ObjectHideFlags: 0
@@ -2321,6 +2513,7 @@ GameObject:
   - component: {fileID: 1482702228}
   - component: {fileID: 1482702227}
   - component: {fileID: 1482702226}
+  - component: {fileID: 1482702229}
   m_Layer: 5
   m_Name: CreditsButton
   m_TagString: Untagged
@@ -2455,6 +2648,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482702224}
   m_CullTransparentMesh: 1
+--- !u!114 &1482702229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482702224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -696677453
+      Data2: 1198943811
+      Data3: 290948260
+      Data4: -1387677342
+    Path: event:/UI/Select
+  Event: 
+  EventPlayTrigger: 17
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1506044765
 GameObject:
   m_ObjectHideFlags: 0
@@ -3117,6 +3341,7 @@ GameObject:
   - component: {fileID: 1950264438}
   - component: {fileID: 1950264437}
   - component: {fileID: 1950264436}
+  - component: {fileID: 1950264439}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -3239,6 +3464,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950264434}
   m_CullTransparentMesh: 1
+--- !u!114 &1950264439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950264434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -696677453
+      Data2: 1198943811
+      Data3: 290948260
+      Data4: -1387677342
+    Path: event:/UI/Select
+  Event: 
+  EventPlayTrigger: 17
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1960902905
 GameObject:
   m_ObjectHideFlags: 0
@@ -3578,6 +3834,8 @@ GameObject:
   - component: {fileID: 2060339584}
   - component: {fileID: 2060339583}
   - component: {fileID: 2060339582}
+  - component: {fileID: 2060339586}
+  - component: {fileID: 2060339585}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -3712,6 +3970,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060339580}
   m_CullTransparentMesh: 1
+--- !u!114 &2060339585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060339580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
+--- !u!114 &2060339586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060339580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -696677453
+      Data2: 1198943811
+      Data3: 290948260
+      Data4: -1387677342
+    Path: event:/UI/Select
+  Event: 
+  EventPlayTrigger: 17
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2065247124
 GameObject:
   m_ObjectHideFlags: 0

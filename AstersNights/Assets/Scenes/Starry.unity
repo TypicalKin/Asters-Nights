@@ -15780,7 +15780,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534654606}
-  m_LocalRotation: {x: 0.10691314, y: 0.0000000042718913, z: -4.5935425e-10, w: 0.99426836}
+  m_LocalRotation: {x: 0.10691314, y: -0.0000000042769406, z: 4.5989715e-10, w: 0.99426836}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -19101,11 +19101,11 @@ MonoBehaviour:
   CollisionTag: Player
   EventReference:
     Guid:
-      Data1: -1804855917
-      Data2: 1276779275
-      Data3: 789645499
-      Data4: 981138450
-    Path: event:/Aster/vox/Aster_confirm
+      Data1: 1517474621
+      Data2: 1209059591
+      Data3: 404811649
+      Data4: -899982463
+    Path: event:/Aster/vox/Aster_disappointed
   Event: 
   EventPlayTrigger: 3
   EventStopTrigger: 0
@@ -19594,6 +19594,8 @@ GameObject:
   - component: {fileID: 1914351826}
   - component: {fileID: 1914351828}
   - component: {fileID: 1914351829}
+  - component: {fileID: 1914351830}
+  - component: {fileID: 1914351831}
   m_Layer: 0
   m_Name: ThirdPersonCamera
   m_TagString: Untagged
@@ -19762,7 +19764,7 @@ MonoBehaviour:
   CollisionTag: 
   Parameter: scene
   TriggerEvent: 1
-  Value: 2
+  Value: 3
 --- !u!114 &1914351827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19830,6 +19832,68 @@ MonoBehaviour:
     Path: event:/Aster/vox/Aster_joy
   Event: 
   EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1914351830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914351821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 65512945
+      Data2: 1090862223
+      Data3: -2033237883
+      Data4: 882294595
+    Path: event:/Amb/Scene_transition
+  Event: 
+  EventPlayTrigger: 2
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1914351831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914351821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1397144983
+      Data2: 1329759688
+      Data3: -1556545368
+      Data4: -1308298226
+    Path: event:/Aster/vox/Aster_laugh
+  Event: 
+  EventPlayTrigger: 2
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0

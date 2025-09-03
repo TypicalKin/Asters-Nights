@@ -784,6 +784,7 @@ GameObject:
   - component: {fileID: 587803383}
   - component: {fileID: 587803382}
   - component: {fileID: 587803381}
+  - component: {fileID: 587803384}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -918,6 +919,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 587803379}
   m_CullTransparentMesh: 1
+--- !u!114 &587803384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587803379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -696677453
+      Data2: 1198943811
+      Data3: 290948260
+      Data4: -1387677342
+    Path: event:/UI/Select
+  Event: 
+  EventPlayTrigger: 17
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &715140793
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,6 +1298,8 @@ GameObject:
   - component: {fileID: 1006337589}
   - component: {fileID: 1006337588}
   - component: {fileID: 1006337587}
+  - component: {fileID: 1006337590}
+  - component: {fileID: 1006337591}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1339,6 +1373,68 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1006337590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006337586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 247505896
+      Data2: 1092870009
+      Data3: 2050270890
+      Data4: 412326789
+    Path: event:/Amb/Starry_beach/twinkle_amb
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1006337591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006337586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 65512945
+      Data2: 1090862223
+      Data3: -2033237883
+      Data4: 882294595
+    Path: event:/Amb/Scene_transition
+  Event: 
+  EventPlayTrigger: 2
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1261787690
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,6 +1523,7 @@ GameObject:
   - component: {fileID: 1482702228}
   - component: {fileID: 1482702227}
   - component: {fileID: 1482702226}
+  - component: {fileID: 1482702229}
   m_Layer: 5
   m_Name: CreditsButton
   m_TagString: Untagged
@@ -1561,6 +1658,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482702224}
   m_CullTransparentMesh: 1
+--- !u!114 &1482702229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482702224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -696677453
+      Data2: 1198943811
+      Data3: 290948260
+      Data4: -1387677342
+    Path: event:/UI/Select
+  Event: 
+  EventPlayTrigger: 17
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1569480735
 GameObject:
   m_ObjectHideFlags: 0
@@ -1706,6 +1834,7 @@ GameObject:
   - component: {fileID: 1819025319}
   - component: {fileID: 1819025318}
   - component: {fileID: 1819025317}
+  - component: {fileID: 1819025320}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -1828,6 +1957,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819025315}
   m_CullTransparentMesh: 1
+--- !u!114 &1819025320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819025315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -696677453
+      Data2: 1198943811
+      Data3: 290948260
+      Data4: -1387677342
+    Path: event:/UI/Select
+  Event: 
+  EventPlayTrigger: 17
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1960902905
 GameObject:
   m_ObjectHideFlags: 0

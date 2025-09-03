@@ -109,6 +109,61 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 703
+--- !u!114 &-3913128275250819744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Select
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Select
+  Guid:
+    Data1: -696677453
+    Data2: 1198943811
+    Data3: 290948260
+    Data4: -1387677342
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &-3785310297704550355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Aster/footsteps_2
+  m_EditorClassIdentifier: 
+  Path: event:/Aster/footsteps_2
+  Guid:
+    Data1: -424024922
+    Data2: 1195014365
+    Data3: -2021468772
+    Data4: -133278019
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4690699974720685455}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3950
 --- !u!114 &-3521464332491787918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,10 +206,10 @@ MonoBehaviour:
   Path: FMODBanks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638919127444706296
+  lastModified: 638925073489471918
   FileSizes:
   - Name: 
-    Value: 1594
+    Value: 1790
   Exists: 1
 --- !u!114 &-2834936304978858003
 MonoBehaviour:
@@ -225,7 +280,7 @@ MonoBehaviour:
   Path: FMODBanks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638919127444565665
+  lastModified: 638925073489426664
   FileSizes: []
   Exists: 1
 --- !u!114 &-1293142249253218688
@@ -341,6 +396,10 @@ MonoBehaviour:
   - {fileID: -4159374664746222737}
   - {fileID: -7519162600669920927}
   - {fileID: -2834936304978858003}
+  - {fileID: 8753982051018881438}
+  - {fileID: -3913128275250819744}
+  - {fileID: -3785310297704550355}
+  - {fileID: 8310478073313758961}
   EditorParameters:
   - {fileID: 4429011591556906584}
   MasterBanks:
@@ -348,7 +407,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -3078699369280860865}
   cacheVersion: 131849
-  cacheTime: 638919127444706296
+  cacheTime: 638925073489471918
   SerializableEventsDict:
   - key: event:/Aster/vox/Aster_surprise
     index: 0
@@ -378,6 +437,14 @@ MonoBehaviour:
     index: 12
   - key: event:/windmill_master
     index: 13
+  - key: event:/Amb/Scene_transition
+    index: 14
+  - key: event:/UI/Select
+    index: 15
+  - key: event:/Aster/footsteps_2
+    index: 16
+  - key: event:/Amb/Starry_beach/twinkle_amb
+    index: 17
 --- !u!114 &741076022019782255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -488,6 +555,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1875
+--- !u!114 &4690699974720685455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/footsteps_2/scene
+  m_EditorClassIdentifier: 
+  Name: scene
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 771118965
+    data2: 888054086
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - purgatory
+  - gallery
+  - meadow
+  - beach
+  Exists: 1
 --- !u!114 &5814941425826455619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -569,3 +664,57 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1587
+--- !u!114 &8310478073313758961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/Starry_beach/twinkle_amb
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/Starry_beach/twinkle_amb
+  Guid:
+    Data1: 247505896
+    Data2: 1092870009
+    Data3: 2050270890
+    Data4: 412326789
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 102000
+--- !u!114 &8753982051018881438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/Scene_transition
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/Scene_transition
+  Guid:
+    Data1: 65512945
+    Data2: 1090862223
+    Data3: -2033237883
+    Data4: 882294595
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
