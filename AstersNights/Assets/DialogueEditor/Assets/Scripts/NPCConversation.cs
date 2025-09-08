@@ -331,7 +331,7 @@ namespace DialogueEditor
         {
             // Create a conversation object
             Conversation conversation = new Conversation();
-            talky = FMODUnity.RuntimeManager.CreateInstance("event:/Dialogue/crane_talk");
+           
 
             // Construct the parameters
             CreateParameters(ec, conversation);
