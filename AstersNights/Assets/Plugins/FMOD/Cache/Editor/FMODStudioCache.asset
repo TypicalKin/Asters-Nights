@@ -259,7 +259,7 @@ MonoBehaviour:
   Path: FMODBanks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638929640840746700
+  lastModified: 638929644140859673
   FileSizes:
   - Name: 
     Value: 2068
@@ -333,7 +333,7 @@ MonoBehaviour:
   Path: FMODBanks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638929640840696717
+  lastModified: 638929644140819697
   FileSizes: []
   Exists: 1
 --- !u!114 &-1293142249253218688
@@ -492,7 +492,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -3078699369280860865}
   cacheVersion: 131849
-  cacheTime: 638929640840746700
+  cacheTime: 638929644140859673
   SerializableEventsDict:
   - key: event:/Aster/vox/Aster_surprise
     index: 0
