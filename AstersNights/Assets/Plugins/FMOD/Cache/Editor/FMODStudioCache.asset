@@ -82,6 +82,59 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &-7338288368939057046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/purgatory/crane 1
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/purgatory/crane 1
+  Guid:
+    Data1: -1066884800
+    Data2: 1179752128
+    Data3: -1610099300
+    Data4: 728312893
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2800
+--- !u!114 &-5919941953143615632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/crane_talk/whichconvo
+  m_EditorClassIdentifier: 
+  Name: whichconvo
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2400966736
+    data2: 3901295090
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - crane
+  - girl
+  Exists: 1
 --- !u!114 &-4159374664746222737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,10 +259,10 @@ MonoBehaviour:
   Path: FMODBanks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638927702932543643
+  lastModified: 638929637461491553
   FileSizes:
   - Name: 
-    Value: 1790
+    Value: 2068
   Exists: 1
 --- !u!114 &-2834936304978858003
 MonoBehaviour:
@@ -280,7 +333,7 @@ MonoBehaviour:
   Path: FMODBanks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638927702932493317
+  lastModified: 638929637461451065
   FileSizes: []
   Exists: 1
 --- !u!114 &-1293142249253218688
@@ -366,6 +419,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1010
+--- !u!114 &-4643726753050657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/purgatory/crane 2
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/purgatory/crane 2
+  Guid:
+    Data1: -1479788530
+    Data2: 1088343473
+    Data3: 204976033
+    Data4: -406984272
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3653
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,14 +480,19 @@ MonoBehaviour:
   - {fileID: -3913128275250819744}
   - {fileID: -3785310297704550355}
   - {fileID: 8310478073313758961}
+  - {fileID: 1838758879367840593}
+  - {fileID: 3428563994184394652}
+  - {fileID: -4643726753050657}
+  - {fileID: -7338288368939057046}
   EditorParameters:
   - {fileID: 4429011591556906584}
+  - {fileID: 8004924974121298859}
   MasterBanks:
   - {fileID: -1845144592826063856}
   StringsBanks:
   - {fileID: -3078699369280860865}
   cacheVersion: 131849
-  cacheTime: 638927702932543643
+  cacheTime: 638929637461491553
   SerializableEventsDict:
   - key: event:/Aster/vox/Aster_surprise
     index: 0
@@ -445,6 +530,14 @@ MonoBehaviour:
     index: 16
   - key: event:/Amb/Starry_beach/twinkle_amb
     index: 17
+  - key: event:/Dialogue/woman_talk
+    index: 18
+  - key: event:/Dialogue/crane_talk
+    index: 19
+  - key: event:/Amb/purgatory/crane 2
+    index: 20
+  - key: event:/Amb/purgatory/crane 1
+    index: 21
 --- !u!114 &741076022019782255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,6 +593,61 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 256000
+--- !u!114 &1838758879367840593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/woman_talk
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/woman_talk
+  Guid:
+    Data1: 1921023582
+    Data2: 1198814091
+    Data3: -420708421
+    Data4: 1408775506
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2402
+--- !u!114 &3428563994184394652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/crane_talk
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/crane_talk
+  Guid:
+    Data1: -847905338
+    Data2: 1199534099
+    Data3: -1606624624
+    Data4: -1969058566
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5919941953143615632}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2402
 --- !u!114 &4429011591556906584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,6 +812,32 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1587
+--- !u!114 &8004924974121298859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/whichconvo
+  m_EditorClassIdentifier: 
+  Name: whichconvo
+  StudioPath: parameter:/whichconvo
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2400966736
+    data2: 3901295090
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - crane
+  - girl
+  Exists: 1
 --- !u!114 &8310478073313758961
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.Serialization;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Json;
+using FMOD;
+using FMODUnity;
 
 namespace DialogueEditor
 {
@@ -45,7 +47,7 @@ namespace DialogueEditor
         // Runtime vars
         public UnityEngine.Events.UnityEvent Event;
         public List<EditableParameter> ParameterList; // Serialized into the json string
-
+        public FMOD.Studio.EventInstance talky;
         
 
 
@@ -329,6 +331,7 @@ namespace DialogueEditor
         {
             // Create a conversation object
             Conversation conversation = new Conversation();
+            talky = FMODUnity.RuntimeManager.CreateInstance("event:/Dialogue/crane_talk");
 
             // Construct the parameters
             CreateParameters(ec, conversation);
@@ -347,6 +350,7 @@ namespace DialogueEditor
             {
                 SpeechNode node = CreateSpeechNode(ec.SpeechNodes[i]);
                 speechByID.Add(ec.SpeechNodes[i].ID, node);
+                talky.start();
             }
 
             for (int i = 0; i < ec.Options.Count; i++)
