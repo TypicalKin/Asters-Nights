@@ -265,6 +265,7 @@ GameObject:
   - component: {fileID: 22141976}
   - component: {fileID: 22141977}
   - component: {fileID: 22141978}
+  - component: {fileID: 22141979}
   m_Layer: 0
   m_Name: ThirdPersonCamera
   m_TagString: Untagged
@@ -463,6 +464,37 @@ MonoBehaviour:
     Path: event:/Amb/scene_transition
   Event: 
   EventPlayTrigger: 2
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &22141979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22141973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1761934437
+      Data2: 1129150765
+      Data3: 593292966
+      Data4: -1425790134
+    Path: event:/Amb/purgatorymusic
+  Event: 
+  EventPlayTrigger: 1
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -18007,6 +18039,7 @@ GameObject:
   - component: {fileID: 1788543198}
   - component: {fileID: 1788543197}
   - component: {fileID: 1788543199}
+  - component: {fileID: 1788543200}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -18056,6 +18089,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelLoader: {fileID: 1486674371}
+--- !u!114 &1788543200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788543196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Parameter: purgatory_music_end
+  TriggerEvent: 3
+  Value: 1
 --- !u!1 &1796947319
 GameObject:
   m_ObjectHideFlags: 0

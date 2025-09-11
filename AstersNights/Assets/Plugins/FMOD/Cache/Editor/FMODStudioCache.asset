@@ -135,6 +135,32 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2800
+--- !u!114 &-6617121677402375033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/purgatory_music_end
+  m_EditorClassIdentifier: 
+  Name: purgatory_music_end
+  StudioPath: parameter:/purgatory_music_end
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 399749562
+    data2: 2374596471
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - continue
+  - end
+  Exists: 1
 --- !u!114 &-5919941953143615632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,10 +311,10 @@ MonoBehaviour:
   Path: FMODBanks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638931191888660414
+  lastModified: 638931952620546369
   FileSizes:
   - Name: 
-    Value: 2148
+    Value: 2284
   Exists: 1
 --- !u!114 &-2834936304978858003
 MonoBehaviour:
@@ -359,7 +385,7 @@ MonoBehaviour:
   Path: FMODBanks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638931191888615141
+  lastModified: 638931952620506311
   FileSizes: []
   Exists: 1
 --- !u!114 &-1293142249253218688
@@ -537,16 +563,19 @@ MonoBehaviour:
   - {fileID: -4643726753050657}
   - {fileID: -7338288368939057046}
   - {fileID: 7578893713252898570}
+  - {fileID: 8767231400905186169}
+  - {fileID: 7883203270530598023}
   EditorParameters:
   - {fileID: 4429011591556906584}
   - {fileID: 8004924974121298859}
   - {fileID: -7826757198337067633}
+  - {fileID: -6617121677402375033}
   MasterBanks:
   - {fileID: -1845144592826063856}
   StringsBanks:
   - {fileID: -3078699369280860865}
   cacheVersion: 131849
-  cacheTime: 638931191888660414
+  cacheTime: 638931952620546369
   SerializableEventsDict:
   - key: event:/Aster/vox/Aster_surprise
     index: 0
@@ -594,6 +623,10 @@ MonoBehaviour:
     index: 21
   - key: event:/Amb/beachmusic
     index: 22
+  - key: event:/Amb/purgatory_impact
+    index: 23
+  - key: event:/Amb/purgatorymusic
+    index: 24
 --- !u!114 &741076022019782255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -787,6 +820,32 @@ MonoBehaviour:
   - meadow
   - beach
   Exists: 1
+--- !u!114 &5099735824067954296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/purgatorymusic/purgatory_music_end
+  m_EditorClassIdentifier: 
+  Name: purgatory_music_end
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 399749562
+    data2: 2374596471
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - continue
+  - end
+  Exists: 1
 --- !u!114 &5814941425826455619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -896,6 +955,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1587
+--- !u!114 &7883203270530598023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/purgatorymusic
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/purgatorymusic
+  Guid:
+    Data1: -1761934437
+    Data2: 1129150765
+    Data3: 593292966
+    Data4: -1425790134
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5099735824067954296}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 37662
 --- !u!114 &8004924974121298859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -976,3 +1063,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &8767231400905186169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amb/purgatory_impact
+  m_EditorClassIdentifier: 
+  Path: event:/Amb/purgatory_impact
+  Guid:
+    Data1: 120074842
+    Data2: 1276608995
+    Data3: 325330561
+    Data4: 1714677420
+  Banks:
+  - {fileID: -1845144592826063856}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15250

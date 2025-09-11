@@ -3374,6 +3374,7 @@ GameObject:
   - component: {fileID: 1950264437}
   - component: {fileID: 1950264436}
   - component: {fileID: 1950264439}
+  - component: {fileID: 1950264440}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -3518,6 +3519,37 @@ MonoBehaviour:
     Path: event:/UI/Select
   Event: 
   EventPlayTrigger: 17
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1950264440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950264434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 120074842
+      Data2: 1276608995
+      Data3: 325330561
+      Data4: 1714677420
+    Path: event:/Amb/purgatory_impact
+  Event: 
+  EventPlayTrigger: 19
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
